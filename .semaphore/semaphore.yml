@@ -11,8 +11,6 @@ blocks:
         - name: Make app
           commands:
             - checkout
-            - cache store
-            - artifact pull workflow m01.devops.training-c/.semaphore/semaphore.yml
             - make app
             - echo hello
   - name: Tests

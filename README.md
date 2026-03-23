@@ -1,5 +1,7 @@
 # DevOps Course M01: C Project
 
+# Owner: Vojica Injac
+
 This is a simple C project demonstrating basic CI/CD steps:
 
 - **Build:** Compiling source files into an executable.
@@ -27,22 +29,25 @@ c-demo-project/
    ```bash
    make app
 
+   ```
+
 2. Run unit tests
 
-    ```bash
-    make test
-    ```
+   ```bash
+   make test
+   ```
 
 3. Run linter
 
-    ```bash
-    make lint
-    ```
+   ```bash
+   make lint
+   ```
 
 4. Clean artifacts
 
-    ```bash
-    make clean
+   ```bash
+   make clean
+   ```
 
 You can also build and run tests all at once with:
 

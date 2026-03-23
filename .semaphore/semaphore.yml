@@ -13,6 +13,7 @@ blocks:
             - checkout
             - make app
             - echo hello
+            - artifact push workflow app
       agent:
         machine:
           type: e1-standard-2
